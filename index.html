@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Medical Image Processing</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Include the CSS you provided */
+        /* Added extra style for image centering */
+        .image-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+
+        .content-box, .highlight {
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #2980b9;
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        td {
+            font-size: 16px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AI & Medical Image Processing</h1>
+    </header>
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="content-box">
+            <h2>How AI is Revolutionizing Medical Image Processing</h2>
+            <p>Artificial Intelligence is transforming healthcare by improving diagnostics, early disease detection, and treatment planning. Through the use of deep learning algorithms and advanced imaging techniques, AI is enabling faster and more accurate results in the medical field.</p>
+        </section>
+
+        <!-- Benefits of AI in Medical Image Processing -->
+        <section class="highlight">
+            <h2>Key Benefits of AI in Medical Imaging</h2>
+            <p>AI improves the speed, accuracy, and consistency of diagnoses, aids early detection of diseases, reduces human error, and helps doctors make more informed decisions.</p>
+        </section>
+
+        <!-- Data Table Section: Comparing AI Applications in Medical Imaging -->
+        <section class="content-box">
+            <h2>Comparison of AI Applications in Medical Imaging</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application</th>
+                        <th>Technology Used</th>
+                        <th>Accuracy</th>
+                        <th>Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Heart Disease Prediction</td>
+                        <td>Deep Learning, CNNs</td>
+                        <td>95%</td>
+                        <td>Early detection of heart problems, improved diagnosis, personalized treatment plans.</td>
+                    </tr>
+                    <tr>
+                        <td>Diabetes Detection</td>
+                        <td>Image Recognition, Machine Learning</td>
+                        <td>92%</td>
+                        <td>Detects diabetic retinopathy, aids in early treatment intervention.</td>
+                    </tr>
+                    <tr>
+                        <td>Brain Tumor Analysis</td>
+                        <td>Neural Networks, MRI Scan Analysis</td>
+                        <td>98%</td>
+                        <td>Improved identification of tumors, quicker response time for treatment.</td>
+                    </tr>
+                    <tr>
+                        <td>Cataract Detection</td>
+                        <td>AI Imaging Tools</td>
+                        <td>94%</td>
+                        <td>Improves accuracy of cataract diagnosis, faster surgical decisions.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Image Section -->
+
+        <!-- Explore Topics Section with Cards -->
+        <section class="card-container">
+            <!-- Card 1: Heart Disease Prediction -->
+            <div class="card">
+                <h4>Heart Disease Prediction</h4>
+                <p>AI algorithms analyze medical images such as echocardiograms and angiograms to predict the risk of heart disease, enabling early intervention and personalized treatment plans.</p>
+                <a href="heart-disease.html" class="btn">Learn More</a>
+            </div>
+
+            <!-- Card 2: Diabetes Detection -->
+            <div class="card">
+                <h4>Diabetes Detection</h4>
+                <p>Using medical imaging techniques, AI can detect signs of diabetic complications, such as diabetic retinopathy, by analyzing eye scans and providing timely interventions.</p>
+                <a href="diabetes.html" class="btn">Learn More</a>
+            </div>
+
+            <!-- Card 3: Brain Tumor Analysis -->
+            <div class="card">
+                <h4>Brain Tumor Analysis</h4>
+                <p>AI-powered image analysis tools assist in identifying brain tumors from MRI scans, improving accuracy and speed of diagnosis and treatment planning.</p>
+                <a href="brain-tumor.html" class="btn">Learn More</a>
+            </div>
+
+            <!-- Card 4: Cataract Detection -->
+            <div class="card">
+                <h4>Cataract Detection</h4>
+                <p>AI helps in detecting cataracts early through eye imaging analysis, offering precise results and aiding in timely surgical intervention.</p>
+                <a href="cataract.html" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <!-- AI Integration in Healthcare -->
+        <section class="content-box">
+            <h2>Integrating AI into Healthcare Systems</h2>
+            <p>AI is revolutionizing healthcare by improving diagnostics, streamlining operations, and supporting healthcare professionals with advanced data-driven tools. Integration of AI leads to better patient outcomes and efficient clinical workflows.</p>
+        </section>
+
+        <!-- Data Table Section: Future Impact of AI in Medicine -->
+        <section class="content-box">
+            <h2>Future Impact of AI in Medicine</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>AI Impact</th>
+                        <th>Projected Growth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Medical Diagnostics</td>
+                        <td>Increased speed and accuracy, reduced errors</td>
+                        <td>40% growth in AI-powered diagnostic tools by 2030</td>
+                    </tr>
+                    <tr>
+                        <td>Patient Monitoring</td>
+                        <td>Continuous monitoring with AI-driven alerts</td>
+                        <td>50% increase in remote monitoring systems by 2028</td>
+                    </tr>
+                    <tr>
+                        <td>Personalized Medicine</td>
+                        <td>AI-tailored treatments based on patient data</td>
+                        <td>30% growth in AI-integrated personalized care systems by 2027</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Future of AI in Medicine -->
+        <section class="content-box">
+            <h2>The Future of AI in Medicine</h2>
+            <p>Advancements in AI technology will continue to enhance personalized medical care, predictive analytics, and real-time patient monitoring. The future of AI in medicine looks promising with its potential to transform healthcare worldwide.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 AI & Medical Image Processing. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

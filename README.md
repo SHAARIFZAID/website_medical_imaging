@@ -1,1 +1,1 @@
-# website_medical_imaging
+# website-medical-imaging
